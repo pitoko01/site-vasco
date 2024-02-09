@@ -23,10 +23,14 @@ body{
 
 
 header{
-   background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), transparent);
+   background-image: url('midia/topo.png');
+   background-position: center center;
+   background-size: cover;
    min-height: 150px;
    text-align: center;
    padding-top: 40px;
+   background-size: cover;
+   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
 }
 
 header > p{
@@ -35,17 +39,17 @@ header > p{
     font-size: 1.4em;
     max-width: 500px;
     margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.247);
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
     text-align: center;
 }
 
 header > h1{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: var(--fonte-padrao);
     font-weight: normal;
     margin-bottom: 20px;
     font-size: 3em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.151);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.849);
 }
 
 nav{
